@@ -1,9 +1,22 @@
 XOR-Cryptage
 ============
 
-A simple xor encrypter
+A simple xor encrypter.
 
-```c
-int a;
-a = 0;
+Compile it with gcc
+
 ```
+gcc main.c
+```
+Set execution right to a.out
+
+```
+chmod +x a.out
+```
+
+Now you can crypte and encrypte your fils
+
+```
+./a.out password.txt passwordCrypte.txt imSupermanIsMyKey
+```
+
